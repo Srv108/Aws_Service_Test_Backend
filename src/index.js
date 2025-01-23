@@ -14,7 +14,7 @@ app.get('/ping', (req, res) => {
     console.log('ping api gets hitted ...');
     return res.status(200).json({
         success: 'true',
-        message: 'Pong Hui Hui 🙂!'
+        message: 'Pong 🙂!'
     });
 });
 
